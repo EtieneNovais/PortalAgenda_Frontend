@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+import Header from './Header';
+import Home from './Home';
+import Service from './Service';
+import Register from './Register';
+import RegisterConfirm from './RegisterConfirm';
+import NewService from './NewService';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Login from './Login';
+import DeleteInstitution from './DeleteInstitution';
+import NewInstitution from './NewInstitution';
+import Institution from './Institution';
+import Appointments from './Appointments';
+import Services from './Services';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header/>
+        <Routes>
+          <Route path='/service' element={<Service/>}/>
+          <Route path='/register' element={<Register/>}/>
+          <Route path='/register-confirm' element={<RegisterConfirm/>}/>
+          <Route path='/login' element={<Login/>}/>
+          <Route path='/delete-institution' element={<DeleteInstitution/>}/>
+          <Route path='/new-institution' element={<NewInstitution/>}/>
+          <Route path='/new-service' element={<NewService/>}/>
+          <Route path='/appointments' element={<Appointments/>}/>
+          <Route path='/services' element={<Services/>}/>
+          <Route path='/institution' element={<Institution/>}/>
+          <Route path='/' element={<Home/>}/>
+        </Routes>
+      </Router>
     </div>
   );
 }

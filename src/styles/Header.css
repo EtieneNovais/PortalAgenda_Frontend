@@ -1,0 +1,94 @@
+.header{
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 5px solid #FF9C00;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    overflow: visible;
+}
+
+.header-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-right span{
+    color: #959595;
+    cursor: pointer;
+    position: relative;
+}
+
+.header-right button{
+    padding: 5px 30px;
+    color: white;
+    border-radius: 15px;
+    margin-right: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-login{
+    background-color: #FF9C00;
+}
+
+.btn-register{
+    background-color: #959595;
+}
+
+.header img{
+    height: 45px;
+    object-fit: contain;
+}
+
+.header ul{
+    list-style: none;
+    background-color:#959595;
+    position: absolute;
+    top: 98%;
+    z-index: 1000;
+    color: white;
+    left: -50%;
+    width: max-content;
+    display: none;
+    padding-top: 2px;
+    border: 1px solid #959595;
+    border-top: none;
+}
+
+.header li{
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header li:hover{
+    background-color:#FF9C00;
+}
+
+div.link{
+    margin-right: 30px;
+    height: 90px;
+    position:relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    left: 0;
+    width: min-content;
+}
+
+div.link:hover ul{
+    display: block;
+}
+
+a:visited{
+    color: white;
+}

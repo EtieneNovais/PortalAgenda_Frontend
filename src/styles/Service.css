@@ -1,0 +1,84 @@
+.service{
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.service-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.service-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-header span{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #959595;
+}
+
+.service-first{
+    border: 1px solid #E9EAEB;
+    max-height: 420px;
+    overflow-y: scroll;
+}
+
+.service-first > div:nth-child(2n){
+    background-color: #E9EAEB;
+}
+
+.service-second{
+    margin: 0 5%;
+    text-align: center;
+}
+
+.service-second span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #4c4c4c;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.service-third{
+    padding-bottom: 100px;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.service-third p:nth-child(1){
+    font-size: 20px;
+    font-weight: bold;
+    color: #4c4c4c;
+}
+
+.service-third p:nth-child(2){
+    font-size: 45px;
+    font-weight: bold;
+    color: #FF9C00;
+}
+
+.service-third button{
+    border-radius: 5px;
+    color: white;
+    background-color: #FF9C00;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.react-calendar {
+    border: none ;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

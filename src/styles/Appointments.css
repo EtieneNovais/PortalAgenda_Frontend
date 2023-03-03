@@ -1,0 +1,20 @@
+.appointments{
+    width: 600px;
+    height: 390;
+    margin: 90px auto 0 auto;
+    background-color: #FF9C00;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.appointments > p{
+    color: white;
+    margin: 10px;
+}
+
+.appointments-content{
+    background-color: white;
+    height: 250px;
+    border-radius: 0 0 5px 5px;
+}
+

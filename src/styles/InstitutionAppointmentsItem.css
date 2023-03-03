@@ -1,0 +1,25 @@
+.institution-appointments-item{
+    border-bottom: 1px solid #E9EAEB;
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.institution-appointments-item div{
+    flex: 1;
+}
+
+.institution-appointments-item div p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #4c4c4c;
+}
+
+.institution-appointments div span{
+    color: #959595;
+    font-size: 15px;
+}
+
+.institution-appointments-item > span{
+    margin: 0 15px;
+}

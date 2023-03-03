@@ -1,0 +1,111 @@
+.new-institution{
+    background-color: #E9EAEB;
+}
+
+.new-institution-header{
+    height: 135px;
+    background-color: #FF9C00;
+    color: white;
+    font-size: 18;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding: 0 10%;
+    flex-direction: column;
+}
+
+.new-institution-header p:nth-child(1){
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.new-institution-body{
+    width: max-content;
+    margin: 50px auto 0 auto;
+    padding-bottom: 50px;
+}
+
+.new-institution-body div{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-bottom: 15px;
+}
+
+.new-institution-body span{
+    font-size: 18px;
+    color: #4c4c4c;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.new-institution-body input, select{
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.new-institution select{
+    background-color: #FF9C00;
+    color: white;
+    height: 35px;
+}
+
+.new-institution-body .small{
+    width: 200px;
+    margin-right: 200px;
+}
+
+.new-institution-body .big{
+    width: 400px;
+    margin-right: 0px;
+}
+
+.new-institution-body button{
+    border-radius: 5px;
+    color: white;
+    background-color: #FF9C00;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight:600;
+    margin: 40px auto;
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+    
+}
+/*
+.new-institution .fieldset-container{
+    displa
+}
+*/
+.new-institution-body .fieldset{
+    padding: 10px 80px;
+    border: 1px solid #707070;
+    border-radius: 3px;
+    margin: 20px auto 10px auto;
+}
+
+.new-institution-body .fieldset span{
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4c4c4c;
+}
+
+.new-institution-body .fieldset div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0px
+}
+
+.new-institution fieldset .legend{
+    font-size: 18px;
+    /*font-weight: 600;*/
+}

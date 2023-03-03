@@ -1,0 +1,75 @@
+.institution{
+    padding: 50px 15%;
+}
+
+.institution-header{
+    display: flex;
+    align-items: center;
+}
+
+.institution-header img{
+    margin-right: 5px;
+}
+
+.institution-header p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #4c4c4c;
+}
+
+.institution-header span{
+    font-size: 15px;
+    font-weight: 400;
+    color: #4c4c4c;
+}
+
+.institution-body{
+    display: flex;
+}
+
+.institution-body-1{
+    padding-top: 50px;
+
+}
+
+.institution-body-1 .imgs{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.institution-body-1 .imgs img{
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.react-calendar {
+    border: none ;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.institution-appointments{
+    width: 500px;
+    height: 390;
+    margin: 0 100px;
+    background-color: #FF9C00;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.institution-appointments > p{
+    color: white;
+    margin: 10px;
+}
+
+.institution-appointments-content{
+    background-color: white;
+    height: 400px;
+    border-radius: 0 0 5px 5px;
+    overflow: scroll;
+}
+
+.institution-appointments-content::-webkit-scrollbar{
+    display: none;
+}
+

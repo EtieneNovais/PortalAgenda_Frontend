@@ -1,0 +1,52 @@
+.login{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 450px;
+    height: 262.5px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.login .title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #4c4c4c;
+    margin: 5px;
+}
+
+.login .title + p{
+    font-size: 18px;
+    color: #E9EAEB;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.login input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 1px solid #E9EAEB;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 250px;
+    outline: none;
+    color: #4c4c4c;
+}
+
+.login button{
+    border-radius: 10px;
+    color: white;
+    background-color: #FF9C00;
+    border: none;
+    width: 250px;
+    font-size: 18px;
+    font-weight:400;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px;
+}

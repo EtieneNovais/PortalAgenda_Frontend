@@ -1,0 +1,23 @@
+.services1{
+    width: 600px;
+    height: 390;
+    margin: 90px auto 0 auto;
+    background-color: #FF9C00;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.services1 > p{
+    color: white;
+    margin: 10px;
+}
+
+.services-content{
+    background-color: white;
+    height: 250px;
+    border-radius: 0 0 5px 5px;
+}
+
+.services-content::-webkit-scrollbar{
+    display: none;
+}

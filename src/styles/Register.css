@@ -1,0 +1,142 @@
+.register-header{
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF9C00;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.register-header div{
+    display: flex;
+    align-items: center;
+}
+
+.register-header-2{
+    color: #E9EAEB;
+}
+
+.register-header div span:nth-child(2){
+    width: 150px;
+    display: inline-block;
+}
+
+.register-header .number{
+    font-size: 100px;
+    margin: 0 20px;
+}
+
+.register-header img{
+    margin: 0 5%;
+}
+
+.register-body{
+    background-color: #E9EAEB;
+    padding: 0 5%;
+    height: 500px;
+}
+
+.register-body-container{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.register-body-container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-body-container > div{
+    flex: 33%;
+    padding: 0 20px;
+}
+
+.register-body-header{
+    text-align: center;
+    padding: 25px 0;
+    color: #4c4c4c;
+}
+
+.register-body-container > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.register-body span{
+    color: #4c4c4c;
+    font-size: 18px;
+    margin-bottom: 13px;
+    display: block;
+}
+
+.register-body-header > span{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.register-body input[type=text], input[type=date]{
+    margin-bottom: 25px;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+
+.register-body-container input[type=text], input[type=date]{
+    width: 100%;
+}
+
+.register-body-2 .sexo{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    color:#4c4c4c;
+    font-weight: 600;
+}
+
+.register-body-2 .sexo input{
+    margin-right: 5px;
+}
+
+.register-body-2 .sexo label{
+    margin-right: 10px;
+}
+
+.register-body-3 div{
+    display: flex;
+    justify-content: center;
+}
+
+.register-body button{
+    border-radius: 5px;
+    color: white;
+    background-color: #FF9C00;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.register-body-container-2 p{
+    font-size: 15px;
+    font-weight: 500;
+    color:#4c4c4c;
+    margin-bottom: 50px;
+}
+
+.register .txt-cod{
+    width: 300px;
+    text-align: center;
+}
+
+.register-body-container-2 .click{
+    color: #FF9C00;
+    font-weight: 600;
+    display: inline;
+    cursor: pointer;
+}
